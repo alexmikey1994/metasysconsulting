@@ -1,0 +1,13 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+/* Global styles */
+body {
+  background-color: black;
+  color: white;
+  font-family: theme('fontFamily.sans');
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
